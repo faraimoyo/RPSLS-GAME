@@ -34,3 +34,30 @@ function playGame(playerChoice) {
     let result = checkWinner(choices[computerChoice], choices[playerChoice]);
     updateScores(result);
 }
+
+/**
+ * Checks to see who the winner is accepting two strings
+ * as inputs
+ */
+function calculateWinner() {
+     let playerScore = document.getElementsByClassName("player");
+     let computerScore = document.getElementsByClassName("computer");
+     
+     if (choices[playerChoice][0]) {
+        return ++playerScore;
+     } else (choice[computerChoice])
+     if (choices[playerChoice][1] && choices[computerChoice][0])
+     ++playerScore;
+     if (choices[playerChoice][2] && choices[computerChoice][3])
+     ++computerScore
+     if (choices[playerChoice][] && choices[computerChoice][1])
+     ++
+     if (choices[playerChoice][0] && choices[computerChoice][1])
+     ++
+     if (choices[playerChoice][0] && choices[computerChoice][1])
+     ++
+     
+        
+    }
+}
+
